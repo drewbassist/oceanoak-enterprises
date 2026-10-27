@@ -33,3 +33,6 @@
 @media (max-width: 520px) {
   .inputs #sliders { grid-template-columns: 1fr; }
 }
+
+/* Four-KPI selector: the graph remains the dominant feature. */
+.kpi-controls{display:flex;align-items:center;gap:14px;margin:8px 0 12px}.kpi-controls button,.slider-picker>button{border:0;background:#143d34;color:white;padding:10px 15px;border-radius:6px;font-weight:700;cursor:pointer}.kpi-controls span{font-size:12px;color:#65776b}.slider-picker{padding:16px;margin:0 0 15px;background:#e7efe9;border:1px solid #b9d1c3;border-radius:8px}.slider-picker[hidden],.slider-row[hidden]{display:none!important}.slider-picker p{margin:0 0 12px;font-size:13px}.slider-picker #sliderChoices{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px 14px;margin-bottom:14px}.slider-picker .choice{display:flex;align-items:flex-start;gap:8px;font-size:12px;cursor:pointer}.slider-picker .choice input{accent-color:#216449;margin-top:2px}.slider-picker>button:disabled{opacity:.45;cursor:not-allowed}@media(max-width:700px){.slider-picker #sliderChoices{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:460px){.slider-picker #sliderChoices{grid-template-columns:1fr}}
